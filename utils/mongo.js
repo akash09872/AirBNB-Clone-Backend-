@@ -1,6 +1,6 @@
 const mongo =require('mongodb');
 const MongoClient=mongo.MongoClient;
-const MongoURL="mongodb+srv://ad:root@airbnb.rvnpegk.mongodb.net/?appName=airbnb"
+const MongoURL=""
 
 const mongoConnect= (callback)=>{
     MongoClient.connect(MongoURL).catch(err =>{
